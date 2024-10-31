@@ -1,0 +1,468 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 8101 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UnityProject/Animation_Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65083
+Successfully changed project path to: E:/UnityProject/Animation_Project
+E:/UnityProject/Animation_Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityProject/Animation_Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) 530 (ID=0x6900)
+    Vendor:   
+    VRAM:     4087 MB
+    Driver:   26.20.12026.2001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002190 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.629 seconds
+Domain Reload Profiling:
+	ReloadAssembly (629ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1095ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 69.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 3.184700 ms (FindLiveObjects: 0.161900 ms CreateObjectMapping: 0.043000 ms MarkObjects: 2.908000 ms  DeleteObjects: 0.070700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/New Animation.anim
+  artifactKey: Guid(11cc3a4da41e14140980c055a6c0a060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/New Animation.anim using Guid(11cc3a4da41e14140980c055a6c0a060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1670886d6e0f4a1f1b29561e10a10dc') in 0.079408 seconds 
+  Import took 0.082109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003243 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Materials
+  artifactKey: Guid(616b9d72f6a92fa48ba3b72044c6f8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Materials using Guid(616b9d72f6a92fa48ba3b72044c6f8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2dcf6d42f75a6e4bb1722adc96dd32') in 0.010088 seconds 
+  Import took 0.012657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003134 seconds.
+  path: Assets/char
+  artifactKey: Guid(55356ccc24dbf544a89ac7def8a60b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char using Guid(55356ccc24dbf544a89ac7def8a60b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d0c664aed365095ec380cb597d5e53') in 0.027767 seconds 
+  Import took 0.030357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007445 seconds.
+  path: Assets/char/Charctermaterail/Erika_Archer_Clothes_diffuse.png
+  artifactKey: Guid(c4a3ca7a9a8b8f74c841925d2accbb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/Charctermaterail/Erika_Archer_Clothes_diffuse.png using Guid(c4a3ca7a9a8b8f74c841925d2accbb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cfbd1e6afd15b3efbb441dd81829bb') in 0.321295 seconds 
+  Import took 0.325073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006385 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Dizzy.fbx
+  artifactKey: Guid(5c3f63b98162c9342800d2d845a2e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Dizzy.fbx using Guid(5c3f63b98162c9342800d2d845a2e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f946b7cd6f5b75c32f50c0cbe6aea5e2') in 0.019913 seconds 
+  Import took 0.022556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004932 seconds.
+  path: Assets/char/erika_archer.controller
+  artifactKey: Guid(bd8164fb7d9c0c94c961f323f2474767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/erika_archer.controller using Guid(bd8164fb7d9c0c94c961f323f2474767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a876a1972bd406f27ce2ec7ee569143') in 0.013038 seconds 
+  Import took 0.015781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005096 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman/VIASS_Dman_dif.mat
+  artifactKey: Guid(fcfc1f26354628848bb0098d0594e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman/VIASS_Dman_dif.mat using Guid(fcfc1f26354628848bb0098d0594e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e61ea365f2b09fda2255b374e0e0f71') in 0.578471 seconds 
+  Import took 0.609779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004061 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/FileTexture
+  artifactKey: Guid(947d15cf279dd95418236ba02c72ab84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/FileTexture using Guid(947d15cf279dd95418236ba02c72ab84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f79131043a14378435691c784eb550') in 0.041718 seconds 
+  Import took 0.045267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005212 seconds.
+  path: Assets/char/Charctermaterail
+  artifactKey: Guid(98bf6e2f1d97da743863992f5f423c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/Charctermaterail using Guid(98bf6e2f1d97da743863992f5f423c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40050cff72aab72c968063b7855fec1') in 0.007709 seconds 
+  Import took 0.033748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005190 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/FIle prefab/VIASS_Dman.prefab
+  artifactKey: Guid(eea16ef0f58854448aaa9db9257bc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/FIle prefab/VIASS_Dman.prefab using Guid(eea16ef0f58854448aaa9db9257bc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fb9a25d196a88af1fdad64ba118082') in 0.085175 seconds 
+  Import took 0.088118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003537 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File Material
+  artifactKey: Guid(33e907e724727c04ca9355b91055407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File Material using Guid(33e907e724727c04ca9355b91055407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029590738c66eedf5e9bed97511b77b7') in 0.005547 seconds 
+  Import took 0.038715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005779 seconds.
+  path: Assets/char/roll.fbx
+  artifactKey: Guid(e6749c85ed2e54247a730f7c76f60d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/roll.fbx using Guid(e6749c85ed2e54247a730f7c76f60d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2c66fa7bf78753e26231fda3811527') in 0.011419 seconds 
+  Import took 0.014542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005542 seconds.
+  path: Assets/char/roll3.fbx
+  artifactKey: Guid(edb595a3a578b0b459f4bf35ee434dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/roll3.fbx using Guid(edb595a3a578b0b459f4bf35ee434dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260e2cf04f82416d66987ed39ae866fc') in 0.009946 seconds 
+  Import took 0.012917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005199 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/VIASS_Dman.fbx
+  artifactKey: Guid(c2e73530bce2b8f4ea66caa6de992f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/VIASS_Dman.fbx using Guid(c2e73530bce2b8f4ea66caa6de992f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdb2bd3f127a9be97dc4dc350340e38') in 0.100624 seconds 
+  Import took 0.103403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003571 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation
+  artifactKey: Guid(a87c70f77a721a649a0c41f416d83877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation using Guid(a87c70f77a721a649a0c41f416d83877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c513d0147f9a20e8780b186056bf1a') in 0.005501 seconds 
+  Import took 0.008222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006645 seconds.
+  path: Assets/char/Charctermaterail/Erika_Archer_Clothes_normal.png
+  artifactKey: Guid(b5ebe3e490879074aba13b485aef7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/Charctermaterail/Erika_Archer_Clothes_normal.png using Guid(b5ebe3e490879074aba13b485aef7e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5f1c7c6c2fb0e870d7a5706d42ee68') in 0.062300 seconds 
+  Import took 0.065735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007277 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Run.fbx
+  artifactKey: Guid(dd6e6df4cbc9d404487a32f64046edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Run.fbx using Guid(dd6e6df4cbc9d404487a32f64046edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46dda648547b45dc0543a959fd86118') in 0.014310 seconds 
+  Import took 0.044117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005055 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Materials/VIASS_Dman_dif.mat
+  artifactKey: Guid(7a8f4b13901ca3845bbe8e9cc7b58202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Materials/VIASS_Dman_dif.mat using Guid(7a8f4b13901ca3845bbe8e9cc7b58202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f49b1b420490bd65b7d49e20a12acee') in 0.015827 seconds 
+  Import took 0.018869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003385 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack
+  artifactKey: Guid(bfea09c5bc71b9c41b4e1b12ab64a523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack using Guid(bfea09c5bc71b9c41b4e1b12ab64a523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec113ca9eef9bfafad5b38b31a3c6f9') in 0.005685 seconds 
+  Import took 0.008332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005284 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Idle.fbx
+  artifactKey: Guid(16a7ff9113ccf714f83e200332b45ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Idle.fbx using Guid(16a7ff9113ccf714f83e200332b45ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e7368c646e6f803bba68e3297430f0') in 0.013532 seconds 
+  Import took 0.016394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005340 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman_Skin.fbx
+  artifactKey: Guid(d49af8694c5ff854eae4c1f1f307bdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman_Skin.fbx using Guid(d49af8694c5ff854eae4c1f1f307bdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e105b71d53ea5267674fd28745ad8f2') in 0.034217 seconds 
+  Import took 0.037133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003394 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/FIle prefab
+  artifactKey: Guid(e2eaa6cc5831ad0449cbd1f1209c91ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/FIle prefab using Guid(e2eaa6cc5831ad0449cbd1f1209c91ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd30b440ff0b5135b7f0e318a51a4887') in 0.005442 seconds 
+  Import took 0.008110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004705 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/Scene Demo/Scene DemoSettings.lighting
+  artifactKey: Guid(b0394579524d457459493a473b71f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/Scene Demo/Scene DemoSettings.lighting using Guid(b0394579524d457459493a473b71f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '5e507dcbee270183752afcc3a678f371') in 0.007981 seconds 
+  Import took 0.010593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005014 seconds.
+  path: Assets/char/erika_archer@Stand To Roll.fbx
+  artifactKey: Guid(b94a48a48009e464a9afc5ff2249cc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/erika_archer@Stand To Roll.fbx using Guid(b94a48a48009e464a9afc5ff2249cc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e13caaeedb8d429bb5b08f85a2b7c21') in 0.015180 seconds 
+  Import took 0.027188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004994 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/Scene Demo/Scene Demo.unity
+  artifactKey: Guid(1db9ca7cc87012343b9f4a2d62e442be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/Scene Demo/Scene Demo.unity using Guid(1db9ca7cc87012343b9f4a2d62e442be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01ab9cfd1d1343f09979b02fbf879db') in 0.005978 seconds 
+  Import took 0.017712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012455 seconds.
+  path: Assets/char/Idle.fbx
+  artifactKey: Guid(9bcafb8a25373ab48a268c1dd2b039dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/Idle.fbx using Guid(9bcafb8a25373ab48a268c1dd2b039dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d00dc86e561eae57817e3b78a005eb') in 0.019303 seconds 
+  Import took 0.041226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012872 seconds.
+  path: Assets/char/roll2.fbx
+  artifactKey: Guid(a74796e4b8a61ec40b5c9c682b07f24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/roll2.fbx using Guid(a74796e4b8a61ec40b5c9c682b07f24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4bc96dfa852bac7bdd05dc1411b194') in 0.016934 seconds 
+  Import took 0.107090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009720 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/FileTexture/VIASS_Dman_dif.png
+  artifactKey: Guid(1e1bd48fc756d7b4ea759a3679d79569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/FileTexture/VIASS_Dman_dif.png using Guid(1e1bd48fc756d7b4ea759a3679d79569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27237c841143c86ed1dbbbe643a76da') in 0.012509 seconds 
+  Import took 0.015283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005708 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Runtojumpspring.fbx
+  artifactKey: Guid(4139518455ef43646a256e2ddf25508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Runtojumpspring.fbx using Guid(4139518455ef43646a256e2ddf25508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe91741571d3ddd67c0a7d8acd5fde3') in 0.013574 seconds 
+  Import took 0.016361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006509 seconds.
+  path: Assets/char/Charctermaterail/FemaleFitA_StdNM.png
+  artifactKey: Guid(72816c30af5cfad4da4e3175b791ee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/Charctermaterail/FemaleFitA_StdNM.png using Guid(72816c30af5cfad4da4e3175b791ee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c164d9207814c5f8e5a3427b07a49e') in 0.016380 seconds 
+  Import took 0.019118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003344 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/Scene Demo
+  artifactKey: Guid(7add99c417320da45ab90eae62b05222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/Scene Demo using Guid(7add99c417320da45ab90eae62b05222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c273da2233003f08cf1d272834c665c') in 0.005284 seconds 
+  Import took 0.007909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004965 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/Cube.controller
+  artifactKey: Guid(c81fa20c611f4b94b98e4338c54af56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/Cube.controller using Guid(c81fa20c611f4b94b98e4338c54af56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "New Animation" cannot be used in the State "New Animation". Legacy AnimationClips are not allowed in Animator Controllers.
+ -> (artifact id: '5d91030fc1156fc4180aba195fbdbfcd') in 0.006793 seconds 
+  Import took 0.009460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003216 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/Materials
+  artifactKey: Guid(9fcd673e2c15420449535e053e894f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/Materials using Guid(9fcd673e2c15420449535e053e894f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15974e091bb84655481fb41f265e88d6') in 0.001505 seconds 
+  Import took 0.036048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015408 seconds.
+  path: Assets/char/erika_archer@Jump.fbx
+  artifactKey: Guid(2e50bbee507a16246920a86a80869d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/erika_archer@Jump.fbx using Guid(2e50bbee507a16246920a86a80869d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247736c098c098bbf38b6f8e52d5bd96') in 0.015996 seconds 
+  Import took 0.020616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003010 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman
+  artifactKey: Guid(03ae5b0d994e7094f9674f01a17a29cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File Material/Materials_VIASS_Dman using Guid(03ae5b0d994e7094f9674f01a17a29cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16564ab0ee2ea810ed7a9e88518ce49f') in 0.005316 seconds 
+  Import took 0.047308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017143 seconds.
+  path: Assets/char/erika_archer@Running.fbx
+  artifactKey: Guid(83b7159c11046284c9f45bbd2c189f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/erika_archer@Running.fbx using Guid(83b7159c11046284c9f45bbd2c189f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfecf6d4f83b224f4de41feb9fe59b4') in 0.020653 seconds 
+  Import took 0.024773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005173 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/Materials/VIASS_Dman_dif.mat
+  artifactKey: Guid(c9bec74b55c30f34583fb170adb3ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/Materials/VIASS_Dman_dif.mat using Guid(c9bec74b55c30f34583fb170adb3ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0003cadc0d29a2a84b30c793cc396481') in 0.025190 seconds 
+  Import took 0.063755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023347 seconds.
+  path: Assets/char/Charctermaterail/FemaleFitA_Body_diffuse.png
+  artifactKey: Guid(ce7be67c557e8354fa13a0ac3adf4406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/Charctermaterail/FemaleFitA_Body_diffuse.png using Guid(ce7be67c557e8354fa13a0ac3adf4406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27f702f4598699865ac86d0637a1ea3') in 0.018878 seconds 
+  Import took 0.022672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013494 seconds.
+  path: Assets/char/erika_archer.fbx
+  artifactKey: Guid(94c910dc104649b4e9a72a2288d1ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/erika_archer.fbx using Guid(94c910dc104649b4e9a72a2288d1ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4dea665193ca7801b018195ed64a38') in 0.445476 seconds 
+  Import took 0.489050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012153 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Runtoslide.fbx
+  artifactKey: Guid(ff9f545cddc6cca4abddee6cfefe9c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/VIASS_Dman@Runtoslide.fbx using Guid(ff9f545cddc6cca4abddee6cfefe9c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65acb3f2f7c33401db92c6aea5901760') in 0.013793 seconds 
+  Import took 0.249574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010276 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/cqwqwc.anim
+  artifactKey: Guid(6819cd31496a1334d9a24c70031cf0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX/Dman_Animation/cqwqwc.anim using Guid(6819cd31496a1334d9a24c70031cf0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8787eab32539c86ccc236cecaf6ba23f') in 0.006970 seconds 
+  Import took 0.009823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003354 seconds.
+  path: Assets/char/VIASS FreeCharacter Pack/File FBX
+  artifactKey: Guid(d1f4ea84a50539747b948c81fc3e81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/char/VIASS FreeCharacter Pack/File FBX using Guid(d1f4ea84a50539747b948c81fc3e81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a27911aaddf5cf11d6b484267acedd6') in 0.005465 seconds 
+  Import took 0.008123 seconds .
+
